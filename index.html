@@ -18,12 +18,12 @@
                 <h1>Find country Details</h1>
             </div>
             <div class="form-container ">
-                <form id="search-form" class="row gy-2 gx-3 align-items-center">
+                <form id="search-form" class="row gy-2 gx-3 align-items-center" onsubmit="searchCountry(); return false;">
                     <div class="col-auto">
                       <input type="text" class="form-control" id="country-input" placeholder="Enter country name">
                     </div>
                     <div class="col-auto">
-                      <button type="submit" class="btn btn-primary" onclick="searchCountry()">Search</button>
+                      <button type="submit" class="btn btn-primary" >Search</button>
                     </div>
                   </form>
             </div>
